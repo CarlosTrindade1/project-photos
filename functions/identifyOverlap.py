@@ -40,15 +40,9 @@ def identifyOverlap(photo1 = [], photo2 = []):
         firstCoordX = min(photo1[0], photo1[2], photo2[0], photo2[2])
         firstCoordY = max(photo1[1], photo1[3], photo2[1], photo2[3])
 
-        firstCoord = [firstCoordX, firstCoordY]
-
         secondCoordX = max(photo1[0], photo1[2], photo2[0], photo2[2])
         secondCoordY = min(photo1[1], photo1[3], photo2[1], photo2[3])
 
-        secondCoord = [secondCoordX, secondCoordY]
-
-        return [firstCoord, secondCoord]
+        return [True, [firstCoordX, firstCoordY, secondCoordX, secondCoordY]]
     else:
-        return False
-
-print(identifyOverlap([3, 9, 6, 3], [2, 4, 7, 1]))
+        return [False, []]
