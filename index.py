@@ -1,5 +1,5 @@
 import sys
-sys.path.append('c:/Users/carlo/OneDrive/Documentos/UFMS/1º Semestre/Algoritmos e Programação/project-photos/functions/')
+sys.path.append('')
 
 from identifyOverlap import identifyOverlap
 import teste
