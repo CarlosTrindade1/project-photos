@@ -1,10 +1,10 @@
 import sys
-sys.path.append('')
+sys.path.append('c:/Users/carlo/OneDrive/Documentos/UFMS/1º Semestre/Algoritmos e Programação/project-photos/functions/')
 
 from identifyOverlap import identifyOverlap
 import teste
 
-fotos = [[2, 9, 4, 7], [4, 9, 6, 7], [6, 9, 8, 7]]
+fotos = [[3, 9, 6, 3], [2, 4, 7, 1], [4, 12, 10, 7], [11, 5, 17, 2]]
 overlap = True
 
 while (overlap == True):

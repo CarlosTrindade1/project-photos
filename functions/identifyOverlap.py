@@ -24,11 +24,8 @@ def identifyOverlapAxis(photo1 = [], photo2 = []):
         coordsI = photo2
         coordsJ = photo1
     
-    for i in range(coordsI[0], coordsI[1] + 1):
-        for j in range(coordsJ[0], coordsJ[1] + 1):
-            if (i == j):
-                result = True
-                break
+    if (coordsI[0] <= coordsJ[0] <= coordsI[1] or coordsI[0] <= coordsJ[1] <= coordsI[1]):
+        result = True
     
     return result
 
