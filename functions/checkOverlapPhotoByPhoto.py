@@ -1,7 +1,7 @@
 from identifyOverlap import identifyOverlap
 from deleteDuplicates import deleteDuplicates
 
-def teste(photos = []):
+def checkOverlapPhotoByPhoto(photos = []):
     overlaps = []
     noOverlaps = []
     overlap = False
