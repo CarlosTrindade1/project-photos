@@ -12,4 +12,5 @@ no formato .txt no mesmo diretório do programa, contendo as coordenadas dos N r
 Após criar o arquivo de entrada, execute o seguinte comando no terminal:
 
 > python mosaico.py <caminho_arquivo_entrada>
+
 Substituindo <caminho_arquivo_entrada> pelo caminho do sistema para o arquivo de entrada criado anteriormente.
